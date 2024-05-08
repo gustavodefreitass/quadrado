@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(24, 23, 23);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.quadrado {
+    background-color: rgb(175, 18, 18);
+    width: 200px;
+    height: 200px;
+    transition: all 1s ease-in-out;
+}
+
+.quadrado:hover {
+    border-radius: 50%;
+}
+
+.quadrado:not(:hover) {
+    border-radius: 0%;
+}
